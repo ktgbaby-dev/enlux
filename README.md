@@ -26,6 +26,6 @@ Add entries to `window.ENLUX_COLLECTION` in `js/collection.js` (the format is do
 
 The email, phone number and WhatsApp link (`https://wa.me/2349068699754`) are written directly in `index.html` (menu, collection, contact, footer, structured data), and the email also appears in `data-email` on `#collection`. To change one, find-and-replace it across `index.html`.
 
-## When the site has a domain
+## Hosting
 
-Add `<link rel="canonical">` and `og:url` in the `<head>`, and make `og:image` / `twitter:image` absolute URLs. A comment in `index.html` marks the spot.
+Deployed on Vercel (project `enlux`, team `ktg5`) at https://enlux.vercel.app. Every push to `main` redeploys automatically. If a custom domain is added, update the canonical, `og:url`, `og:image`, `twitter:image` and JSON-LD `url` in the `<head>` of `index.html` (a comment marks the spot).
