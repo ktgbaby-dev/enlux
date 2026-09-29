@@ -24,7 +24,7 @@ Add entries to `window.ENLUX_COLLECTION` in `js/collection.js` (the format is do
 
 ## Contact details
 
-The email and phone number are written directly in `index.html` (menu, collection, contact, footer, structured data) and in `data-email` on `#collection`. To change one, find-and-replace it across `index.html`.
+The email, phone number and WhatsApp link (`https://wa.me/2349068699754`) are written directly in `index.html` (menu, collection, contact, footer, structured data), and the email also appears in `data-email` on `#collection`. To change one, find-and-replace it across `index.html`.
 
 ## When the site has a domain
 

@@ -1298,6 +1298,11 @@ ol, ul { margin: 0; padding: 0; list-style: none; }
   transition: background-size 0.9s var(--ease);
 }
 .direct-link:hover { background-size: 100% 1px; }
+.direct-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 28px;
+}
 .copy-btn {
   display: inline-flex;
   align-items: center;
